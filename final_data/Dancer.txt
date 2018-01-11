@@ -1,0 +1,21 @@
+Boogaloo Sam,US,Male,Sam1.jpg,1959-09-28,Boogaloo,Boogaloo Founder,The Electric Boogaloos
+Popin Pete,US,Male,Peter1.jpg,1961-08-05,Popping,Popping Founder,The Electric Boogaloos
+Gucchon,Japan,Male,Gucchon1.jpg,1986-05-16,Popping;Animation,UK B-BOY 2008 Champion; Juste Debout 2008 Winner; Juste Debout 2011 Winner,Co-thkoo
+Poppin Hyun Joon,Korea,Male,Hyun Joon1.jpg,1979-01-30,Popping;Animation,One & Only,\N,
+Kite,Japan,Male,Kite1.jpg,1983-03-26,Ground Move,Juste Debout 2009 Winner;KOD 2010 Winner,Former Action
+Hoan,Korea,Male,Hoan1.jpg,1990-06-18,Popping,KOD 2014 Winner; Feel the Funk;2016 Winner,Winners Crew;Mo’Higher
+Hozin,Korea,Male,Hozin1.jpg,1989-10-20,Popping;Boogaloo,KOD 2007 Best 4; KOD 2008 Best 4,K-O.G.S
+Dino,China,Male,Dino1.jpg,1986-06-18,Popping;Animation,Last One Stands 2011 Winner; KOD 2009 Winner,5+5
+Poppin C,Switzerland,Male,C1.jpg,1992-01-01,Popping,Dance Vision 2017 Best 2; Juste Debout 2017 Best 2,\N
+Nelson,France,Male,Nelson1.jpg,\N,Popping,Juste Debout 2010 Winner; KOD 2011 Winner,\N
+Greenteck,Canada,Male,Greenteck1.jpg,\N,Popping;Gstyle,Samurai 2016 Winner; Juste Debout 2013 Winner,\N
+Poppin J,Korea,Male,PoppinJ1.jpg,1978-05-13,Popping;Ground Move,Juste Debout 2012 Winner,K-O.G.S
+Franqey,France,Male,Franqey1.jpg,1984-04-03,Boogaloo,KOD 2012 Winner;Crazy Dancing 2013 Winner,LKS
+Kei,Japan,Male,Kei1.jpg,1981-06-24,Animation,Juste Debout 2008 Winner;Old School Night 2011 Winner,Co-thkoo
+Salah,France,Male,Salah1.jpg,1979-06-26,Animation,Juste Debout 2003 Winner; UK B-BOY 2007 Champion,\N
+Jaygee,Korea,Male,Jaygee1.jpg,1991-03-13,Popping;Animation,Samurai 2016 Winner,Mo’Higher;Real Marvelous
+P Ds,Korea,Male,DS1.jpg,1984-09-28,Popping,KOD 2008 Winner; Old School Night 2007 Winner,Winner Crew
+Kin,Korea,Male,Kin1.jpg,1985-05-11,Boogaloo,R16 2010 Best 4,Funk In The Heart
+Lia,Korea,Female,Lia1.jpg,1984-06-26,Popping,WIB 2008 Best 4,Winner Crew
+Sonic,China,Male,Sonic1.jpg,1981-02-21,Funky,KOD 2014 Best 2,5+5
+Acky,Japan,Male,Acky1.jpg,1987-04-21,Boogaloo;Animation,Old School Night 2017 Winner,3D Crew

@@ -1,0 +1,101 @@
+
+DROP TABLE IF EXISTS Administrator;
+CREATE TABLE Administrator (
+	UserID VARCHAR(50) PRIMARY KEY  NOT NULL,
+    Email VARCHAR(200) NOT NULL,
+    Passwords VARCHAR(50) NOT NULL
+);
+
+DROP TABLE IF EXISTS Dancer;
+CREATE TABLE Dancer (
+	DancerName VARCHAR(50) PRIMARY KEY  NOT NULL,
+	Nationality VARCHAR(50),
+	Gender VARCHAR(20),
+    Picture VARCHAR(50),
+    DateofBirth DATE,
+    Style VARCHAR(50),
+    Title VARCHAR(200),
+    Crew VARCHAR(50)
+);
+
+DROP TABLE IF EXISTS Video;
+CREATE TABLE Video (
+	VideoID VARCHAR(50) PRIMARY KEY  NOT NULL,
+	VideoName VARCHAR(500),
+	PostTime DATE,
+    Viewers INT,
+	URL VARCHAR(1000) UNIQUE NOT NULL
+);
+
+
+DROP TABLE IF EXISTS Music;
+CREATE TABLE Music (
+	MusicID VARCHAR(50) PRIMARY KEY  NOT NULL,
+	MusicName VARCHAR(200),
+	Releasetime DATE,
+	Viewers BIGINT,
+	URL VARCHAR(500) UNIQUE NOT NULL
+);
+
+DROP TABLE IF EXISTS Contest;
+CREATE TABLE Contest (
+	ContestName VARCHAR(50) PRIMARY KEY  NOT NULL,
+	ContestTime DATE,
+	Site VARCHAR(50),
+    Scale INT,
+    Bonus DECIMAL(10,2),
+    Poster VARCHAR(50),
+    Winner VARCHAR(50)
+);
+
+DROP TABLE IF EXISTS Crew;
+CREATE TABLE Crew (
+	CrewName VARCHAR(50) PRIMARY KEY  NOT NULL,
+	Nationality VARCHAR(50),
+    OfficeWeb VARCHAR(500)
+);
+
+DROP TABLE IF EXISTS Follow;
+CREATE TABLE Follow(
+	UserID VARCHAR(50) NOT NULL,
+	DancerName VARCHAR(50)  NOT NULL,
+    PRIMARY KEY (UserID, DancerName)
+);
+
+DROP TABLE IF EXISTS ViewCollectVideo;
+CREATE TABLE ViewCollectVideo(
+	UserID VARCHAR(50) NOT NULL,
+	VideoID VARCHAR(50)  NOT NULL,
+    PRIMARY KEY (UserID, VideoID)
+);
+
+DROP TABLE IF EXISTS VideoRecommendedTo;
+CREATE TABLE VideoRecommendedTo(
+	VideoID VARCHAR(50)  NOT NULL,
+    UserID VARCHAR(50) NOT NULL,
+    PRIMARY KEY (UserID, VideoID)
+);
+
+DROP TABLE IF EXISTS ViewCollectMusic;
+CREATE TABLE ViewCollectMusic(
+	UserID VARCHAR(50) NOT NULL,
+	MusicID VARCHAR(50)  NOT NULL,
+    PRIMARY KEY (UserID, MusicID)
+);
+
+DROP TABLE IF EXISTS MusicRecommendedTo;
+CREATE TABLE  MusicRecommendedTo(
+	MusicID VARCHAR(50)  NOT NULL,
+    UserID VARCHAR(50) NOT NULL,
+    PRIMARY KEY (UserID, MusicID)
+);
+
+DROP TABLE IF EXISTS Perform;
+CREATE TABLE  Perform(
+    DancerName VARCHAR(50) NOT NULL,
+	VideoID VARCHAR(50)  NOT NULL,
+    PRIMARY KEY (VideoID, DancerName)
+);
+
+
+
