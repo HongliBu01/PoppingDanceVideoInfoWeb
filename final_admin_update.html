@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>final_user</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style >
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ECF0F1;
+}
+
+div.jumbotron {
+    margin-bottom: 0px;
+    background-size: cover;
+}
+
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Vpopping</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Update <span class="sr-only">(current)</span></a></li>
+        <li><a href="final_admin.html">Go Back</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+  <div class = "jumbotron">
+      <a target="blank" href="icon.png">
+      <img src="icon.png" alt="titleimg" width=100% height=auto>
+      </a>
+  </div>
+  <div class="container-fluid">
+
+      <h2><center>You are visiting the web as a administrator now!</center></h2><br>
+      <h2><center>Here's the page for updating.</center></h2><br>
+
+    <div class="row">
+
+        <div class="col-xs-4">
+          <h3>Update view number of a video </h3><br>
+              <form method=get action="update_view.php">
+              <b> VideoID:</b><p>
+               <input type="text" name='VideoID' placeholder="Video + (1-11194)" required><BR>
+              <b> Update view number:</b><p>
+               <input type="number" name='ViewNum' placeholder="int, >=0 " required><BR>
+               <input type="submit" value="Update">
+             </form>
+       </div>
+       <div class="col-xs-4">
+          <h3>Update  Dancer's style </h3><br>
+              <form method=get action="update_dancerinfo.php">
+              <b> Dancer:</b><p>
+               <input type="text" name='DancerName' required><BR>
+              <b> Style:</b><p>
+              <select name="Style"> 
+                  <option value= 'Popping'>Popping</option>
+                  <option value= 'Animation'>Animation</option>
+                  <option value= 'Wave'>Wave</option>
+                  <option value= 'GroundMove'>GroundMove</option>
+                  <option value= 'Funk'>Funk</option>
+              </select> <br>
+               <input type="submit" value="Update">
+             </form>
+
+     </div>
+     <div class="col-xs-4">
+          <h3>Update  crew's website </h3><br>
+              <form method=get action="update_crewweb.php">
+              <b> CrewName:</b><p>
+               <input type="text" name='CrewName' required><BR>
+              <a href = 'crew.php'><b> You can see all crew info here:</b></a><br>
+              <b> OfficeWeb:</b><p>
+              <input type="text" name='OfficeWeb' placeholder="example:www.google.com" required><BR> 
+               <input type="submit" value="Update">
+             </form>
+
+     </div>
+    </div>
+</div>
+</body>
