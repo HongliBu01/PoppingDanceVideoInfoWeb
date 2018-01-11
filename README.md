@@ -19,7 +19,7 @@ What things you need to install the software and how to install them
 
 ```
 Deploy WebServer through MAMP
-Create and populate tables using data in data file.
+Create and populate tables using final_data in final_query file.
 Updating..................
 ```
 
